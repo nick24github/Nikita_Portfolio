@@ -394,12 +394,12 @@ section.active{
     }
 
     .about-info {
-        grid-template-columns: 1fr 1fr;
-        column-gap: 1rem;
+        grid-template-columns: 1fr 1fr 1fr;
+        /* column-gap: 1px; */
     }
-    .about-box {
+    /* .about-box {
         margin: 3px;
-    }
+    } */
 }
     
     /* -------------------about section end ------------- */
@@ -931,6 +931,10 @@ section.active{
 
     .close {
         font-size: 22px; /* Smaller close button */
+    }
+    .downlod-btn{
+        font-size: 10px;
+        font-weight: 1000;
     }
 }
 /* -----------project end----------------- */
