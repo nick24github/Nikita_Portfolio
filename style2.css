@@ -829,7 +829,8 @@ section.active{
     
 }
 .project-img img{
-    width: 320px;
+    /* width: 320px; */
+    width: 100%;
     object-fit: contain;
 }
 
